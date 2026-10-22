@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Protótipo acadêmico do sistema de gestão Horizonte Soluções">
+  <title>Cadastro de Produtos | Horizonte Soluções</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="index.html">Horizonte Soluções</a>
+    <p class="subtitulo">Sistema de Gestão Empresarial</p>
+      <nav class="menu" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="produtos.html" aria-current="page">Produtos</a>
+        <a href="pedidos.html">Pedidos</a>
+        <a href="relatorios.html">Relatórios</a>
+      </nav>
+  </header>
+  <main class="conteudo">
+    <section class="hero">
+      <h1>Cadastro de Produtos</h1>
+      <p>Cadastre visualmente itens e consulte o catálogo fictício.</p>
+    </section>
+    <section class="painel"><h2>Novo produto</h2>
+      <form class="formulario" onsubmit="return false;">
+        <div class="campo"><label for="descricao">Descrição</label><input id="descricao" name="descricao" required placeholder="Monitor 24 polegadas"></div>
+        <div class="campo"><label for="categoria">Categoria</label><select id="categoria" name="categoria"><option>Informática</option><option>Escritório</option><option>Acessórios</option></select></div>
+        <div class="campo"><label for="estoque">Estoque</label><input id="estoque" name="estoque" type="number" min="0" value="0"></div>
+        <div class="campo"><label for="preco">Preço estimado (R$)</label><input id="preco" name="preco" type="number" min="0" step="0.01" placeholder="0,00"></div>
+        <div class="campo largo"><button class="botao" type="button" title="Demonstração sem armazenamento">Cadastrar (demonstração)</button></div>
+      </form><p class="aviso">A tela não modifica o estoque real nem persiste dados.</p>
+    </section>
+    <section class="painel" style="margin-top:18px"><h2>Catálogo demonstrativo</h2>
+      <div class="rolagem"><table class="tabela"><thead><tr><th>Código</th><th>Produto</th><th>Estoque</th><th>Valor</th></tr></thead>
+      <tbody><tr><td>P01</td><td>Monitor 24 polegadas</td><td>12</td><td>R$ 780,00</td></tr><tr><td>P02</td><td>Teclado sem fio</td><td>28</td><td>R$ 120,00</td></tr></tbody></table></div>
+    </section>
+  </main>
+  <footer class="rodape">© 2026 Horizonte Soluções. Protótipo educacional com dados fictícios.</footer>
+</body>
+</html>
