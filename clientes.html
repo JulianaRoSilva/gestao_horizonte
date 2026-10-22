@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Protótipo acadêmico do sistema de gestão Horizonte Soluções">
+  <title>Cadastro de Clientes | Horizonte Soluções</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="index.html">Horizonte Soluções</a>
+    <p class="subtitulo">Sistema de Gestão Empresarial</p>
+      <nav class="menu" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="clientes.html" aria-current="page">Clientes</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="pedidos.html">Pedidos</a>
+        <a href="relatorios.html">Relatórios</a>
+      </nav>
+  </header>
+  <main class="conteudo">
+    <section class="hero">
+      <h1>Cadastro de Clientes</h1>
+      <p>Mantenha organizadas as informações básicas dos clientes.</p>
+    </section>
+    <section class="painel" aria-labelledby="titulo-form">
+      <h2 id="titulo-form">Novo cliente</h2>
+      <form class="formulario" onsubmit="return false;">
+        <div class="campo"><label for="nome">Nome completo</label><input id="nome" name="nome" required placeholder="Ex.: Ana Ribeiro"></div>
+        <div class="campo"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="ana@exemplo.com"></div>
+        <div class="campo"><label for="telefone">Telefone</label><input id="telefone" name="telefone" type="tel" placeholder="(51) 99999 9999"></div>
+        <div class="campo"><label for="cidade">Cidade</label><input id="cidade" name="cidade" placeholder="Porto Alegre"></div>
+        <div class="campo largo"><button class="botao" type="button" title="Demonstração sem armazenamento">Cadastrar (demonstração)</button></div>
+      </form>
+      <p class="aviso">Formulário ilustrativo. Os dados não são gravados.</p>
+    </section>
+    <section class="painel" aria-labelledby="lista-clientes" style="margin-top:18px">
+      <h2 id="lista-clientes">Clientes de exemplo</h2>
+      <div class="rolagem"><table class="tabela"><thead><tr><th>ID</th><th>Nome</th><th>Cidade</th><th>Situação</th></tr></thead>
+      <tbody><tr><td>101</td><td>Ana Ribeiro</td><td>Porto Alegre</td><td>Ativo</td></tr><tr><td>102</td><td>Bruno Costa</td><td>Canoas</td><td>Ativo</td></tr></tbody></table></div>
+    </section>
+  </main>
+  <footer class="rodape">© 2026 Horizonte Soluções. Protótipo educacional com dados fictícios.</footer>
+</body>
+</html>
