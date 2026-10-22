@@ -1,0 +1,31 @@
+/* Identidade visual da Horizonte Soluções */
+:root { color-scheme: light; --azul: #112846; --azul2: #1e4675; --dourado: #dfaa47; --fundo: #f3f6fb; --texto: #23324a; --borda: #d9e3f0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fundo); color: var(--texto); font-family: Arial, Helvetica, sans-serif; line-height: 1.55; }
+.topo { background: linear-gradient(120deg, var(--azul), var(--azul2)); color: white; padding: 24px max(24px, calc((100vw - 1080px)/2)); }
+.marca { color: white; font-size: 1.5rem; font-weight: 800; text-decoration: none; }
+.subtitulo { margin: 4px 0 18px; color: #dbe7fa; }
+.menu { display: flex; flex-wrap: wrap; gap: 8px; }
+.menu a { color: white; text-decoration: none; padding: 9px 13px; border-radius: 7px; background: #ffffff1b; }
+.menu a:hover, .menu a[aria-current="page"] { background: var(--dourado); color: #1b2840; }
+.conteudo { max-width: 1080px; margin: 32px auto; padding: 0 20px; }
+.hero { padding: 28px; background: white; border-left: 6px solid var(--dourado); border-radius: 12px; box-shadow: 0 5px 20px #11284612; }
+.hero h1 { margin: 0 0 8px; color: var(--azul); }
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 20px; }
+.cartao, .painel { background: white; padding: 22px; border: 1px solid var(--borda); border-radius: 12px; }
+.cartao h2, .painel h2 { font-size: 1.12rem; color: var(--azul); margin-top: 0; }
+.cartao a { color: #14579b; font-weight: bold; }
+.formulario { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+.campo { display: flex; flex-direction: column; gap: 5px; }
+.campo label { font-weight: bold; font-size: .92rem; }
+.campo input, .campo select, .campo textarea { padding: 11px; border: 1px solid #becbdc; border-radius: 7px; font: inherit; width: 100%; }
+.campo.largo { grid-column: 1 / -1; }
+.botao { background: var(--azul2); border: 0; color: white; padding: 11px 16px; border-radius: 7px; font-weight: bold; cursor: pointer; }
+.aviso { background: #fff6df; border-left: 4px solid var(--dourado); padding: 10px 14px; margin: 16px 0; }
+.tabela { width: 100%; border-collapse: collapse; min-width: 560px; }
+.tabela th, .tabela td { text-align: left; border-bottom: 1px solid var(--borda); padding: 11px; }
+.tabela th { background: #e8eef8; color: var(--azul); }
+.rolagem { overflow-x: auto; }
+.selo { display: inline-block; background: #e3f3e8; color: #216237; padding: 4px 9px; border-radius: 999px; font-weight: bold; }
+.rodape { color: #63738b; text-align: center; padding: 24px; font-size: .88rem; }
+@media (max-width: 600px) { .topo { padding: 22px 18px; } .conteudo { margin: 20px auto; } }
