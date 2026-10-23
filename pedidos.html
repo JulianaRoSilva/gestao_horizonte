@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Protótipo acadêmico do sistema de gestão Horizonte Soluções">
+  <title>Gestão de Pedidos | Horizonte Soluções</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="index.html">Horizonte Soluções</a>
+    <p class="subtitulo">Sistema de Gestão Empresarial</p>
+      <nav class="menu" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="pedidos.html" aria-current="page">Pedidos</a>
+        <a href="relatorios.html">Relatórios</a>
+      </nav>
+  </header>
+  <main class="conteudo">
+    <section class="hero">
+      <h1>Gestão de Pedidos</h1>
+      <p>Acompanhe os pedidos e seus estágios de atendimento.</p>
+    </section>
+    <section class="grade">
+      <article class="cartao"><h2>Pedidos em aberto</h2><p><strong>03</strong> pedidos fictícios aguardam atendimento.</p></article>
+      <article class="cartao"><h2>Pedido em destaque</h2><p>Número 0007 • Cliente Ana Ribeiro</p><span class="selo">Em separação</span></article>
+    </section>
+    <section class="painel" style="margin-top:18px"><h2>Consultar pedido</h2>
+      <form class="formulario" onsubmit="return false;">
+        <div class="campo"><label for="numero">Número do pedido</label><input id="numero" name="numero" placeholder="0007"></div>
+        <div class="campo"><label for="situacao">Situação desejada</label><select id="situacao" name="situacao"><option>Pendente</option><option>Em separação</option><option>Enviado</option><option>Concluído</option></select></div>
+        <div class="campo largo"><button type="button" class="botao">Pesquisar (demonstração)</button></div>
+      </form><p class="aviso">Busca e situação são ilustrativas, sem processamento de pedidos.</p>
+    </section>
+    <section class="painel" style="margin-top:18px"><h2>Últimos pedidos</h2><div class="rolagem"><table class="tabela"><thead><tr><th>Pedido</th><th>Cliente</th><th>Valor</th><th>Status</th></tr></thead>
+    <tbody><tr><td>0007</td><td>Ana Ribeiro</td><td>R$ 900,00</td><td>Em separação</td></tr><tr><td>0008</td><td>Bruno Costa</td><td>R$ 120,00</td><td>Pendente</td></tr></tbody></table></div></section>
+  </main>
+  <footer class="rodape">© 2026 Horizonte Soluções. Protótipo educacional com dados fictícios.</footer>
+</body>
+</html>
