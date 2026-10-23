@@ -1,4 +1,4 @@
-/* Identidade visual da Horizonte Soluções */
+/* Identidade visual da Horizonte Soluções  */
 :root { color-scheme: light; --azul: #112846; --azul2: #1e4675; --dourado: #dfaa47; --fundo: #f3f6fb; --texto: #23324a; --borda: #d9e3f0; }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--fundo); color: var(--texto); font-family: Arial, Helvetica, sans-serif; line-height: 1.55; }
