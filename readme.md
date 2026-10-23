@@ -86,8 +86,8 @@ O projeto usa dois níveis de branches fixas e branches de trabalho curtas:
 
 - [x] Estrutura inicial do projeto e folha de estilos
 - [x] Painel inicial (`index.html`)
-- [ ] Módulo de clientes
-- [ ] Módulo de produtos
+- [x] Módulo de clientes
+- [x] Módulo de produtos
 - [ ] Módulo de pedidos
 - [ ] Módulo de relatórios
 - [ ] Correção do menu
