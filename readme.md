@@ -90,15 +90,15 @@ O projeto usa dois níveis de branches fixas e branches de trabalho curtas:
 - [x] Módulo de produtos
 - [x] Módulo de pedidos
 - [x] Módulo de relatórios
-- [ ] Correção do menu
-- [ ] Correção visual
+- [x] Correção do menu
+- [x] Correção visual
 - [ ] Conflito local resolvido
 - [ ] Conflito em Pull Request resolvido
 - [ ] Entrega final (`develop` → `main`)
 
 ### 🔜 Próximas entregas
 
-Correção do menu, irá sair nas proximas versoes
+Entrega final
 
 ## 🏷️ Histórico de versões
 
