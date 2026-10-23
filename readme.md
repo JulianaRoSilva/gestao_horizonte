@@ -88,8 +88,8 @@ O projeto usa dois níveis de branches fixas e branches de trabalho curtas:
 - [x] Painel inicial (`index.html`)
 - [x] Módulo de clientes
 - [x] Módulo de produtos
-- [ ] Módulo de pedidos
-- [ ] Módulo de relatórios
+- [x] Módulo de pedidos
+- [x] Módulo de relatórios
 - [ ] Correção do menu
 - [ ] Correção visual
 - [ ] Conflito local resolvido
@@ -98,9 +98,7 @@ O projeto usa dois níveis de branches fixas e branches de trabalho curtas:
 
 ### 🔜 Próximas entregas
 
-Integração dos módulos de cadastros, depois pedidos e relatórios, seguidos das correções, da resolução dos conflitos e da revisão final da documentação.
-
-> Esta seção será atualizada a cada release importante.
+Correção do menu, irá sair nas proximas versoes
 
 ## 🏷️ Histórico de versões
 
